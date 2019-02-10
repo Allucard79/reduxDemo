@@ -11,6 +11,4 @@ const mapDispatchToProps = dispatch => ({
 	addComment: (text) => dispatch(addComment(text))
 });
 
-
-
 export default connect(mapStateToProps, mapDispatchToProps)(CommentsList);

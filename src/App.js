@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import AddCommentContainer from './AddCommentContainer';
 import CommentsListContainer from './CommentsListContainer';
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
     <p>When driving is this satisfying, it’s the perfect time to join over 12 million people – including two million here in Europe – in choosing 
       Toyota Hybrid. It’s just one of the reasons why, more than four decades after its launch, Corolla remains the world’s favourite car.
     </p>
+    <AddCommentContainer />
     <CommentsListContainer />
     </div>
   );
